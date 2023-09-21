@@ -15,7 +15,7 @@
   ],
   "platform": "github",
   "onboarding": false,
-  "requireConfig": "optional",
+  "requireConfig": "ignore",
   "timezone": "America/New_York",
   "dependencyDashboardTitle": "Renovate Dashboard 🤖",
   "suppressNotifications": ["prIgnoreNotification"],
