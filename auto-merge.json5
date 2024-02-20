@@ -3,12 +3,19 @@
   "packageRules": [
     {
       "description": "Auto merge container digests",
-      "description": "Auto merge container digests",
       "matchDatasources": ["docker"],
       "automerge": true,
       "ignoreTests": true,
       "automergeType": "branch",
       "matchUpdateTypes": ["digest"],
+    },
+    {
+      "description": "Auto merge Github releases and tags",
+      "matchDatasources": ["github-releases", "github-tags"],
+      "automerge": true,
+      "ignoreTests": true,
+      "automergeType": "branch",
+      "matchUpdateTypes": ["major", "minor", "patch"],
     },
     {
       "description": "Auto merge GitHub Actions",
