@@ -6,7 +6,6 @@
     "docker:enableMajor",
     ":semanticCommits",
     ":automergeDigest",
-    ":automergeBranch",
     "github>rishid/renovate-config:auto-merge.json5", 
     "github>rishid/renovate-config:commit-message.json5",    
     "github>rishid/renovate-config:generic-regex-manager.json5",
